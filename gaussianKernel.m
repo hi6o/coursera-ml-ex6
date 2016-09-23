@@ -17,7 +17,7 @@ sim = 0;
 %
 
 
-sim = exp(-1 * (sum((vec(x1) - vec(x2)) .^2) / (2*sigma^2)))
+sim = exp(-1 * (sum((vec(x1) - vec(x2)) .^2) / (2*sigma^2)));
 
 
 
